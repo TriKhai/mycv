@@ -9,7 +9,7 @@ export default function Skill() {
         <li>Database: MySQL, Mongodb, Redis</li>
         <li>Frondend: React, Vue, Bootstrap, Tailwindcss</li>
         <li>Backend: NodeJS (Express), Spring Boot</li>
-        <li>Khác: UML, CDM, LDM, LaTeX ...</li>
+        <li>Khác: UML, CDM, LDM, LaTeX, Docker, Postman...</li>
       </ul>
     </div>
   );
