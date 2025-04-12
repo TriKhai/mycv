@@ -1,109 +1,103 @@
+interface Project {
+  title: string;
+  position: string;
+  feature: string;
+  technology: string;
+  link: string;
+  date: string;
+  description: string;
+}
+
+const projects: Project[] = [
+  {
+    title: "Website quản lý bán đồ chơi",
+    position: "Fullstack Developer",
+    feature:
+      "Đăng nhập, đăng ký, phân quyền, danh mục sản phẩm, mượn sản phẩm, quản lý, quên mật khẩu (email),...",
+    technology: "Spring Boot (Java), MySQL, React, Typescript, TailwindCSS,...",
+    link: "https://github.com/TriKhai/toycollect",
+    date: "3/2023",
+    description: "Xây dựng hệ thống quản lý bán đồ chơi",
+  },
+  {
+    title: "Website quản lý thư viện sách",
+    position: "Fullstack Developer",
+    feature:
+      "Đăng nhập, đăng ký, phân quyền, danh mục sách, mượn sách, quản lý thư viện sách,...",
+    technology: "NodeJS (Express), Mongodb, VueJS, ...",
+    link: "https://github.com/TriKhai/LibraZone/",
+    date: "10/2023",
+    description: "Xây dựng hệ thống quản lý thư viện sách",
+  },
+  {
+    title: "Dự Đoán Thiên Thạch Có Khả Năng Va Chạm Với Trái Đất",
+    position: "Developer",
+    feature: "Đưa ra dự đoán khả năng thiên thạch có va vào trái đất hay không",
+    technology: "Máy học ứng dụng, Python",
+    link: "https://astraeus.streamlit.app/",
+    date: "10/2023",
+    description:
+      "Vận dụng kiến thức máy học ứng dụng để xây dựng mô hình AI dự đoán khả năng va chạm của thiên thạch đến với trái đất thông qua các số liệu của thiên thạch.",
+  },
+  {
+    title: "Dự Đoán Thiên Thạch Có Khả Năng Va Chạm Với Trái Đất",
+    position: "Developer",
+    feature: "Đưa ra dự đoán khả năng thiên thạch có va vào trái đất hay không",
+    technology: "Máy học ứng dụng, Python",
+    link: "https://astraeus.streamlit.app/",
+    date: "10/2023",
+    description:
+      "Vận dụng kiến thức máy học ứng dụng để xây dựng mô hình AI dự đoán khả năng va chạm của thiên thạch đến với trái đất thông qua các số liệu của thiên thạch.",
+  },
+  {
+    title: "Thuật Toán Simulated Annealing",
+    position: "Developer",
+    feature:
+      "Tim đường đi cho bài toán TSP bằng giải thuật Simulated Annealing",
+    technology: "Python",
+    link: "https://github.com/TriKhai/stimul-anneal",
+    date: "10/2024",
+    description:
+      "Áp dụng kiến thức thuật toán Simulated Annealing trong trí tuệ nhân tạo để giải quyết bài toán TSP",
+  },
+  {
+    title: "Website Ẩm Thực Miền Tây",
+    position: "Frontend Developer",
+    feature:
+      "Trang chủ, Trang admin, danh mục sản phẩm, đặt hàng, đăng nhập, đăng ký, ....",
+    technology: "HTML, CSS, Bootstrap, JQuery",
+    link: "https://github.com/TriKhai/foodweb",
+    date: "2023-2024",
+    description:
+      "Áp dụng kiến thức về website cơ bản, có tích hợp thư viện bootstrap",
+  },
+];
+
 export default function Project() {
   return (
     <div>
-      <h2 className="text-2xl font-bold mb-4 border-b pb-2">PROJECTS</h2>
-      <div className="mb-6">
-        <h3 className="font-bold">
-          Unity Hand Writing Recognition AI{" "}
-          <span className="float-right text-sm font-normal">12/2024</span>
-        </h3>
-        <p className="text-sm italic">Position: Fullstack Developer</p>
-        <p className="text-sm">
-          🔗{" "}
-          <a
-            className="text-blue-600 underline"
-            href="https://github.com/dinhdung6/UNITY-Hand-writing-recognition-AI/tree/main"
-          >
-            Project Link
-          </a>
-        </p>
-        <p className="text-sm">
-          Feature: Handwriting recognition, VR interfaces, Time and Point
-          counter
-        </p>
-        <p className="text-sm">
-          Technology: C#, Unity, Blender, Brain, Machine learning
-        </p>
-      </div>
-      <div className="mb-6">
-        <h3 className="font-bold">
-          Job Recruitment Website{" "}
-          <span className="float-right text-sm font-normal">9 - 11/2024</span>
-        </h3>
-        <p className="text-sm italic">Position: Fullstack Developer</p>
-        <p className="text-sm">
-          🔗{" "}
-          <a
-            className="text-blue-600 underline"
-            href="https://github.com/dinhdung6/COS10026-Inquiry-project"
-          >
-            Project Link
-          </a>
-        </p>
-        <p className="text-sm">
-          Feature: Login, Signup, Responsive design, User management, Security
-          auth...
-        </p>
-        <p className="text-sm">
-          Technology: HTML, CSS, PHP, MySQL, SQL Server, MariaDB
-        </p>
-      </div>
-      <div className="mb-6">
-        <h3 className="font-bold">
-          Korean's Game Week{" "}
-          <span className="float-right text-sm font-normal">11/2024</span>
-        </h3>
-        <p className="text-sm">Third Prize – Conceptualize and program games</p>
-      </div>
-      <div className="mb-6">
-        <h3 className="font-bold">
-          ASTGCN-r Development{" "}
-          <span className="float-right text-sm font-normal">9 - 11/2024</span>
-        </h3>
-        <p className="text-sm italic">Position: Developer | Team size: 4</p>
-        <p className="text-sm">
-          🔗{" "}
-          <a
-            className="text-blue-600 underline"
-            href="https://github.com/dinhdung6/ASTGCN--research"
-          >
-            Project Link
-          </a>
-        </p>
-        <p className="text-sm">
-          Feature: Traffic flow prediction, Spatial-Temporal GCNs
-        </p>
-        <p className="text-sm">
-          Technology: Python, supervised learning, Attention models
-        </p>
-      </div>
-      <div className="mb-6">
-        <h3 className="font-bold">
-          Hackathon{" "}
-          <span className="float-right text-sm font-normal">9/2024</span>
-        </h3>
-        <p className="text-sm">Top 10 Swin Hackathon Competition</p>
-      </div>
-      <div>
-        <h3 className="font-bold">
-          Kohaku Dynamic Texture{" "}
-          <span className="float-right text-sm font-normal">3 - 8/2024</span>
-        </h3>
-        <p className="text-sm italic">Position: Fullstack Developer</p>
-        <p className="text-sm">
-          🔗{" "}
-          <a
-            className="text-blue-600 underline"
-            href="https://github.com/dinhdung6/Kohaku-Unity-Dynamic-Texture"
-          >
-            Project Link
-          </a>
-        </p>
-        <p className="text-sm">
-          Feature: Hologram texture + dynamic update via camera
-        </p>
-        <p className="text-sm">Technology: C#, Unity, Blender, DroidCam</p>
-      </div>
+      <h2 className="text-2xl font-bold mb-4 border-b pb-2">Dự án</h2>
+      {projects.map((project, index) => (
+        <div className="mb-6" key={index}>
+          <h3 className="font-bold">
+            {project.title}{" "}
+            <span className="float-right text-sm font-normal">
+              {project.date}
+            </span>
+          </h3>
+          <p className="text-sm italic">Vai trò: {project.position}</p>
+
+          <p className="text-sm">Tính năng: {project.feature}</p>
+          <p className="text-sm">Mô tả: {project.description}</p>
+          <p className="text-sm">Công nghệ sử dụng: {project.technology}</p>
+          <p className="text-sm">
+            🔗{" "}
+            <a className="text-blue-600 underline" href={project.link}>
+              {project.link}
+            </a>
+          </p>
+        </div>
+      ))}
     </div>
   );
 }

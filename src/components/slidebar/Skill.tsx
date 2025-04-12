@@ -5,12 +5,11 @@ export default function Skill() {
         Chuyên môn
       </h3>
       <ul className="text-sm list-disc ml-4">
-        <li>HTML, CSS, JS</li>
-        <li>MySQL, SQL, Mongodb</li>
-        <li>Python, C++, Java</li>
-        <li>ReactJS, Vue</li>
-        <li>NodeJS, Spring Booot</li>
-        <li>Bootstrap, Tailwindcss</li>
+        <li>Basic: C/C++, Python, Java, Javascript, Typescript</li>
+        <li>Database: MySQL, Mongodb, Redis</li>
+        <li>Frondend: React, Vue, Bootstrap, Tailwindcss</li>
+        <li>Backend: NodeJS (Express), Spring Boot</li>
+        <li>Khác: UML, CDM, LDM, LaTeX ...</li>
       </ul>
     </div>
   );
