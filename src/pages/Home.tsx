@@ -1,4 +1,3 @@
-import React from "react";
 import Avatar from "../components/slidebar/Avatar";
 import Contact from "../components/slidebar/Contact";
 import Education from "../components/slidebar/Education";

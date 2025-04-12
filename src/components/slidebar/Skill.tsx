@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Skill() {
   return (
     <div className="mb-4 w-full">

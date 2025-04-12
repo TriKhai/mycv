@@ -1,5 +1,3 @@
-import React from "react";
-
 export default function Education() {
   return (
     <div className="mb-4 w-full">

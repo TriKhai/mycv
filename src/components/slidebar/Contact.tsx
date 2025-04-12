@@ -1,5 +1,5 @@
 import { Calendar, Github, Mail, MapPin, Phone } from "lucide-react";
-import React, { ReactNode } from "react";
+import { ReactNode } from "react";
 
 interface Contact {
   icon: ReactNode;
