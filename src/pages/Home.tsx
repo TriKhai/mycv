@@ -14,7 +14,7 @@ export default function Home() {
           <Contact />
           <Education />
           <Skill />
-          {/* <Language /> */}
+          <Language />
         </aside>
         {/* Main content */}
         <main className="w-full md:w-2/3 bg-white p-8">
